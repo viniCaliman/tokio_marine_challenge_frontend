@@ -1,0 +1,7 @@
+{
+    "eslint.runtime": "",
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.workingDirectories": [
+        {"mode": "auto"}
+ ],
+}
