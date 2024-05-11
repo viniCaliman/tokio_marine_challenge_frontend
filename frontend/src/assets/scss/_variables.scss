@@ -10,6 +10,9 @@ $light: #ffffff;
 $featured: #c5be62;
 $featured-dark: #076052;
 
+$error: #FF9494;
+$error-border: #ff0000;
+
 :root {
     --dark: #{$dark};
     --darker: #{$darker};
@@ -22,4 +25,7 @@ $featured-dark: #076052;
 
     --featured: #{$featured};
     --featured-dark: #{$featured-dark};
+
+    --error: #{$error};
+    --error-border: #{$error-border};
 }

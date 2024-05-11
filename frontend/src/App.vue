@@ -31,7 +31,13 @@ export default {
 h1 {
   text-align: center;
   font-size: 4.2vh;
-  margin-bottom: 1vh;
+  margin-bottom: 4vh !important;
+  color: var(--featured-dark) !important;
+}
+h2 {
+  text-align: center;
+  font-size: 3.6vh;
+  margin-bottom: 1vh !important;
   color: var(--featured-dark) !important;
 }
 
