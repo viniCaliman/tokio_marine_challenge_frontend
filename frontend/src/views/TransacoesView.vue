@@ -37,9 +37,15 @@ export default {
   },
   methods: {
     async getTransations () {
-      const req = await fetch('http://localhost:8080/api/transactions')
-      const data = await req.json()
-      this.transactions = data
+      try {
+        const req = await fetch('http://localhost:8080/api/transactions')
+        if (req.ok) {
+          const data = await req.json()
+          this.transactions = data
+        }
+      } catch (error) {
+        console.error(error)
+      }
     },
     formatDate (date) {
       console.log(date)
